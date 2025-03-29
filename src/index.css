@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply text-gray-600 hover:text-blue-600 transition-colors;
+  }
+  
+  .social-link {
+    @apply text-gray-600 hover:text-blue-600 transition-colors;
+  }
+}
