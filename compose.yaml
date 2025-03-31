@@ -13,8 +13,6 @@ services:
       context: .
     environment:
       NODE_ENV: production
-    ports:
-      - 3000:3000
   nginx:
     image: nginx:stable-alpine
     ports:
